@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
 
 const { expressAppErrorHandler } = require("./helpers/errorHandlers");
 
@@ -9,6 +10,7 @@ const router = require("./routes/router");
 
 const startServer = port => {
   app
+    .use(cors())
     .use(bodyParser.urlencoded({ extended: false }))
     .use(bodyParser.json())
     .use(morgan("dev"))

@@ -1,6 +1,7 @@
 const addUserToDB = require("../../helpers/addUserToDB");
 
 const signUpUser = (request, response) => {
+  console.log(request);
   let resp = addUserToDB(request.body);
 
   if (!resp) {

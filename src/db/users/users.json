@@ -1,23 +1,14 @@
 [
     {
+        "email": "davane4ek@gmail.com",
         "password": "12345678",
-        "name": "Evgen",
-        "email": "evgen@gmail.com",
-        "adress": "ул. Ереванская д.29 кв.53",
-        "id": "vOpwP5Vu"
+        "name": "Иван Дашко",
+        "id": "mwJkaedr"
     },
     {
-        "password": "12345678",
-        "name": "Ivan",
-        "email": "ivan@gmail.com",
-        "adress": "ул. Ереванская д.29 кв.53",
-        "id": "ap6BbgDd"
-    },
-    {
-        "password": "12345678",
-        "name": "Ivan",
-        "email": "katamaran@gmail.com",
-        "adress": "ул. Ереванская д.29 кв.53",
-        "id": "WDehEXWe"
+        "email": "hello@gmail.com",
+        "password": "654654",
+        "name": "Иван Дашко",
+        "id": "0LLbMzf-"
     }
 ]
