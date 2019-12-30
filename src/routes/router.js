@@ -6,8 +6,8 @@ const signUpUser = require("./user/signup");
 const loginUser = require("./user/loginUser");
 
 apiRoutes
-  .get("/products", productsRoute)
-  .get("/login", loginUser)
+  .get("/menu", productsRoute)
+  .post("/login", loginUser)
   .post("/signup", signUpUser)
   .get("*", (req, res, next) => {
     res.status(404).send("Route not exists");

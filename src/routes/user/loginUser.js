@@ -12,14 +12,20 @@ const loginUser = (request, response) => {
     el => el.email === user.email && el.password === user.password
   );
 
-  let resp = {
-    answer: "Login succes",
-    login: true,
-    user: isUserExist
-  };
+  let resp;
 
   if (!isUserExist) {
-    resp = { answer: "Login fail", login: false, user };
+    resp = { status: "failed", login: false, user };
+  } else {
+    resp = {
+      status: "success",
+      login: true,
+      user: {
+        name: isUserExist.name,
+        email: isUserExist.email,
+        id: isUserExist.id
+      }
+    };
   }
 
   response.writeHead(200, {

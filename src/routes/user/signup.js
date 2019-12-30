@@ -1,14 +1,18 @@
 const addUserToDB = require("../../helpers/addUserToDB");
 
 const signUpUser = (request, response) => {
-  console.log(request);
-  let resp = addUserToDB(request.body);
+  let user = addUserToDB(request.body);
 
-  if (!resp) {
+  let resp = {
+    status: "success",
+    user: { email: user.email, name: user.name, id: user.id }
+  };
+
+  if (!user) {
     resp = {
-      answer: "Such user is exist already, try to login",
-      signup: false,
-      user: request.body
+      status: "failed",
+      message: "User with this email is exist",
+      user: null
     };
   }
 
