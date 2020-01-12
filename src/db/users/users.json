@@ -1,1 +1,17 @@
-[{"email":"davane4ek@gmail.com","password":"12345678","name":"Иван","id":"axkQJhep"}]
+[
+    {
+        "email": "davane4ek@gmail.com",
+        "password": "12345678",
+        "name": "Иван Дашко",
+        "id": "h4b_dedW",
+        "order": [
+            {
+                "name": "Вино розовое",
+                "price": 40,
+                "img": "",
+                "id": "ihHGE5kn3m",
+                "amount": 1
+            }
+        ]
+    }
+]
