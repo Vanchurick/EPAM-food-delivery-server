@@ -11,7 +11,7 @@ const signUpUser = (request, response) => {
   if (!user) {
     resp = {
       status: "failed",
-      message: "User with this email is exist",
+      message: "User with this email is exist. Try to login",
       user: null
     };
   }

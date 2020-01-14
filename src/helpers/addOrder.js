@@ -15,6 +15,7 @@ const addOrder = data => {
   users.forEach(el => {
     if (el.id === data.id) {
       el.order = data.order;
+      el.adress = data.adress;
     }
   });
 

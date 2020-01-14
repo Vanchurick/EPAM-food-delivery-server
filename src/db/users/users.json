@@ -1,17 +1,1 @@
-[
-    {
-        "email": "davane4ek@gmail.com",
-        "password": "12345678",
-        "name": "Иван Дашко",
-        "id": "h4b_dedW",
-        "order": [
-            {
-                "name": "Вино розовое",
-                "price": 40,
-                "img": "",
-                "id": "ihHGE5kn3m",
-                "amount": 1
-            }
-        ]
-    }
-]
+[{"email":"davane4ek@gmail.com","password":"12345678","name":"ben","id":"s2gKVxGx","order":[]},{"email":"zarembof@gmail.com","password":"bigbang123","name":"Jack Sparrow","id":"0BF6pnNP","order":[{"name":"Вино розовое","price":40,"img":"","id":"ihHGE5kn3m","amount":1}],"adress":"Ереванская, 29"},{"email":"hello@gmail.com","password":"12345678","name":"Ivan","id":"tvP3ajfm","order":[{"name":"Вареники с вишнями","price":65,"img":"","id":"ThE7XlrXcU","amount":1},{"name":"Пицца Гавайская","price":175,"img":"","id":"7YKdpNv9bI","amount":1}],"adress":"Erevaya 29, 53"}]
