@@ -16,6 +16,8 @@ const addOrder = data => {
     if (el.id === data.id) {
       el.order = data.order;
       el.adress = data.adress;
+      el.name = data.name;
+      el.email = data.email;
     }
   });
 
