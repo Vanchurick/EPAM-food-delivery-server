@@ -17,7 +17,7 @@ const getLunches = params => {
     lunches.sort((a, b) => {
       const sumA = a.menu.reduce((acc, el) => acc + el.price, 0);
       const sumB = b.menu.reduce((acc, el) => acc + el.price, 0);
-      return sumA - sumB;
+      return sumB - sumA;
     });
   }
 
@@ -25,7 +25,7 @@ const getLunches = params => {
     lunches.sort((a, b) => {
       const sumA = a.menu.reduce((acc, el) => acc + el.price, 0);
       const sumB = b.menu.reduce((acc, el) => acc + el.price, 0);
-      return sumB - sumA;
+      return sumA - sumB;
     });
   }
 
@@ -34,6 +34,8 @@ const getLunches = params => {
 
   const results = {};
 
+  results.result = lunches.slice(startIndex, lastIndex);
+
   if (lastIndex < lunches.length) {
     results.next = {
       page: page + 1,
@@ -41,15 +43,20 @@ const getLunches = params => {
     };
   }
 
-  if (startIndex > 0) {
+  if (startIndex > 0 && results.result.length !== 0) {
     results.previous = {
       page: page - 1,
       limit: limit
     };
   }
 
-  results.result = lunches.slice(startIndex, lastIndex);
   results.amount = lunches.length;
+  results.currentPage = page;
+
+  if (results.result.length === 0) {
+    results.result = lunches.slice(0, limit);
+    results.currentPage = 1;
+  }
 
   return results;
 };

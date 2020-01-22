@@ -93,6 +93,37 @@
         ]
     },
     {
+        "category": "ukraine",
+        "name": "Ukrainian lunch 4",
+        "id": "U4",
+        "menu": [
+            {
+                "name": "Сік томатний (1л)",
+                "price": 49,
+                "img": "https://i.obozrevatel.com/food/recipemain/2019/3/21/screenshot72.webp?size=600x400",
+                "id": "BLN6ksK5W"
+            },
+            {
+                "name": "Салат Олів'є з куркою та яйцем пашот (260г)",
+                "price": 98,
+                "img": "https://res.cloudinary.com/glovoapp/w_340,h_170,c_fit,f_auto,q_auto/Products/qiqj2thn3ooydktxqcv5",
+                "id": "5iN40cAbZ"
+            },
+            {
+                "name": "Червоний борщ зі свинячим ребром та сметаною (400/70г)",
+                "price": 98,
+                "img": "https://res.cloudinary.com/glovoapp/w_340,h_170,c_fit,f_auto,q_auto/Products/s7uudqfz6ldcxyq9k2zm",
+                "id": "dwFuhrtFS"
+            },
+            {
+                "name": "Торт Наполеон (220г)",
+                "price": 65,
+                "img": "https://res.cloudinary.com/glovoapp/w_340,h_170,c_fit,f_auto,q_auto/Products/kknunshkphe2qav4honx",
+                "id": "ThE7XlrXcU"
+            }
+        ]
+    },
+    {
         "category": "italy",
         "name": "Italian lunch 1",
         "id": "I1",

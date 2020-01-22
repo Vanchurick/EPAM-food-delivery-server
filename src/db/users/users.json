@@ -1,1 +1,17 @@
-[{"email":"davane4ek@gmail.com","password":"12345678","name":"Ivan Dashko","id":"yACiBLP2","order":[{"name":"Мірінда (0,5л)","price":25,"img":"https://res.cloudinary.com/glovoapp/w_340,h_170,c_fit,f_auto,q_auto/Products/306019147","id":"ihHGE5kn3m","amount":1},{"name":"Пивна тарілка велика (640г)","price":209,"img":"https://res.cloudinary.com/glovoapp/w_340,h_170,c_fit,f_auto,q_auto/Products/306018996","id":"ghaMlcJlq_","amount":1},{"name":"Фетучіні Болоньєза (300г)","price":119,"img":"https://res.cloudinary.com/glovoapp/w_340,h_170,c_fit,f_auto,q_auto/Products/zejvlqvnn0asdvndlan1","id":"j7Yhw0JrQo","amount":1}],"adress":"Erevanskaya str. 29, 53"}]
+[
+    {
+        "email": "davane4ek@gmail.com",
+        "password": "12345678",
+        "name": "Ivan Dashko",
+        "id": "yACiBLP2",
+        "order": [
+            {
+                "name": "Gergian lunch 2",
+                "id": "G2",
+                "amount": 1,
+                "price": 525
+            }
+        ],
+        "adress": ""
+    }
+]
